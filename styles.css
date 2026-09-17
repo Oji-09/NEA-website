@@ -1,0 +1,40 @@
+/* This styles the whole page background and removes default spacing. */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+/* This makes the links sit in a row and centers them in the middle of the page. */
+.nav {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* This gives each text link the same button size and rounded border. */
+.link {
+    color: #111111;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2px solid #111111;
+    padding: 12px 22px;
+    border-radius: 999px;
+    background-color: #ffffff;
+    min-width: 110px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+/* This changes the button colour and text when the mouse hovers over it. */
+.link:hover {
+    background-color: #7d5bb4ab;
+    color: #ffffff;
+    transform: scale(1.05);
+}
